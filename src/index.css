@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+body {
+  background-color: rgb(234, 239, 229);
+}
+
+@theme {
+  --color-primary: #063b00;
+  --color-secondary: #266210;
+  --color-accent: #90b800;
+  --color-four: #e1e100;
+  --color-dis: #c1e4d1;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #e1e100 !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 5px !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #e1e100 !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 14px !important;
+}
