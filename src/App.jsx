@@ -9,7 +9,7 @@ import Profile from "./components/Profile";
 export default function App() {
   return (
     <div className="w-full min-h-screen">
-      <Router>
+      <Router basename="/grocery/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/category/:categoryName" element={<CategoryPage />} />
